@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# Logs
+logs/
+*.log
+
+# DB / artefacts
+trading_data.db
+trading_backup.json
+
+# Virtual-env & node (if you add web later)
+venv/
+node_modules/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
